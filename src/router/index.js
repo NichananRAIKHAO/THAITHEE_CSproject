@@ -34,7 +34,13 @@ import document_6_2 from '../views/Document_6(2).vue'
 import document_6_3 from '../views/Document_6(3).vue'
 import document_7 from '../views/Document_7.vue'
 import document_8 from '../views/Document_8.vue'
+import document_8_1 from '../views/Document_8(1).vue'
+import document_8_2 from '../views/Document_8(2).vue'
+import document_8_3 from '../views/Document_8(3).vue'
 import document_9 from '../views/Document_9.vue'
+import document_9_1 from '../views/Document_9(1).vue'
+import document_9_2 from '../views/Document_9(2).vue'
+import document_9_3 from '../views/Document_9(3).vue'
 import document_10 from '../views/Document_10.vue'
 import document_11 from '../views/Document_11.vue'
 import document_11_1 from '../views/Document_11(1).vue'
@@ -207,9 +213,39 @@ const routes = [
     component: document_8
   },
   {
+    path: '/การจดทะเบียนหย่าในสำนักทะเบียน',
+    name: 'Document8_1',
+    component: document_8_1
+  },
+  {
+    path: '/การจดทะเบียนหย่านอกสำนักทะเบียน',
+    name: 'Document8_2',
+    component: document_8_2
+  },
+  {
+    path: '/คำพิพากษาของศาลหรือการฟ้องหย่า',
+    name: 'Document8_3',
+    component: document_8_3
+  },
+  {
     path: '/พินัยกรรม',
     name: 'Document9',
     component: document_9
+  },
+  {
+    path: '/พินัยกรรมแบบฝ่ายเมือง',
+    name: 'Document9_1',
+    component: document_9_1
+  },
+  {
+    path: '/พินัยกรรมแบบลับ',
+    name: 'Document9_2',
+    component: document_9_2
+  },
+  {
+    path: '/พินัยกรรมแบบด้วยวาจา',
+    name: 'Document9_3',
+    component: document_9_3
   },
   {
     path: '/รับรองบุตร',

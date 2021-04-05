@@ -22,8 +22,16 @@ import document_3_1 from '../views/Document_3(1).vue'
 import document_3_2 from '../views/Document_3(2).vue'
 import document_3_3 from '../views/Document_3(3).vue'
 import document_4 from '../views/Document_4.vue'
+import document_4_1 from '../views/Document_4(1).vue'
+import document_4_2 from '../views/Document_4(2).vue'
+import document_4_3 from '../views/Document_4(3).vue'
 import document_5 from '../views/Document_5.vue'
+import document_5_1 from '../views/Document_5(1).vue'
+import document_5_2 from '../views/Document_5(2).vue'
 import document_6 from '../views/Document_6.vue'
+import document_6_1 from '../views/Document_6(1).vue'
+import document_6_2 from '../views/Document_6(2).vue'
+import document_6_3 from '../views/Document_6(3).vue'
 import document_7 from '../views/Document_7.vue'
 import document_8 from '../views/Document_8.vue'
 import document_9 from '../views/Document_9.vue'
@@ -139,14 +147,54 @@ const routes = [
     component: document_4
   },
   {
+    path: '/การแจ้งเกิดในสถานพยาบาล',
+    name: 'Document4_1',
+    component: document_4_1
+  },
+  {
+    path: '/การแจ้งเกิดนอกสถานพยาบาล',
+    name: 'Document4_2',
+    component: document_4_2
+  },
+  {
+    path: '/การแจ้งเกิดเกินกำหนด',
+    name: 'Document4_3',
+    component: document_4_3
+  },
+  {
     path: '/แจ้งตาย',
     name: 'Document5',
     component: document_5
   },
   {
+    path: '/การแจ้งตายในสถานพยาบาล',
+    name: 'Document5_1',
+    component: document_5_1
+  },
+  {
+    path: '/การแจ้งตายนอกสถานพยาบาล',
+    name: 'Document5_2',
+    component: document_5_2
+  },
+  {
     path: '/แจ้งย้าย',
     name: 'Document6',
     component: document_6
+  },
+  {
+    path: '/การแจ้งย้ายเข้า',
+    name: 'Document6_1',
+    component: document_6_1
+  },
+  {
+    path: '/การแจ้งย้ายออก',
+    name: 'Document6_2',
+    component: document_6_2
+  },
+  {
+    path: '/การแจ้งย้ายปลายทาง',
+    name: 'Document6_3',
+    component: document_6_3
   },
   {
     path: '/จดทะเบียนสมรส',

@@ -5,23 +5,23 @@
         <div class="w3-center" style="margin:100px; margin-top:50px; margin-left: 250px; color: white;">
           <table>
             <tr>
-              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 100px; background-color: #3D3C92; height: 100px; width: 450px;"><a href="document_2(1).html">ขอมีบัตรครั้งแรก</a></button></td>
-              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color: #3D3C92; height: 100px; width: 450px;"><a href="document_2(2).html" >บัตรเดิมหมดอายุ</a></button></td>
+              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 100px; background-color: #3D3C92; height: 100px; width: 450px;"><router-link to="/ขอมีบัตรครั้งแรก">ขอมีบัตรครั้งแรก</router-link></button></td>
+              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color: #3D3C92; height: 100px; width: 450px;"><router-link to="/บัตรเดิมหมดอายุ">บัตรเดิมหมดอายุ</router-link></button></td>
             </tr>
             <tr height="50px"></tr>
             <tr>
-              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 100px; background-color: #3D3C92; height: 100px; width: 450px;"><a href="document_2(3).html">บัตรหายหรือถูกทำลาย</a></button></td>
-              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color: #3D3C92; height: 100px; width: 450px;"><a href="document_2(4).html" >บัตรเดิมชำรุดในสาระสำคัญ</a></button></td>
+              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 100px; background-color: #3D3C92; height: 100px; width: 450px;"><router-link to="/บัตรหายหรือถูกทำลาย">บัตรหายหรือถูกทำลาย</router-link></button></td>
+              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color: #3D3C92; height: 100px; width: 450px;"><router-link to="/บัตรเดิมชำรุดในสาระสำคัญ">บัตรเดิมชำรุดในสาระสำคัญ</router-link></button></td>
             </tr>
             <tr height="50px"></tr>
             <tr>
-              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 100px; background-color: #3D3C92; height: 100px; width: 450px;"><a href="document_2(5).html">เปลี่ยนชื่อตัวหรือชื่อสกุล</a></button></td>
-              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color: #3D3C92; height: 100px; width: 450px;"><a href="document_2(6).html" >ผู้ถือบัตรย้ายที่อยู่</a></button></td>
+              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 100px; background-color: #3D3C92; height: 100px; width: 450px;"><router-link to="/เปลี่ยนชื่อตัวหรือชื่อสกุล">เปลี่ยนชื่อตัวหรือชื่อสกุล</router-link></button></td>
+              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color: #3D3C92; height: 100px; width: 450px;"><router-link to="/ผู้ถือบัตรย้ายที่อยู่">ผู้ถือบัตรย้ายที่อยู่</router-link></button></td>
             </tr>
             <tr height="50px"></tr>
             <tr>
-              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 100px; background-color: #3D3C92; height: 100px; width: 450px;"><a href="document_2(7).html">ผู้มีอายุเกิน 70 ปี ขอมีบัตร</a></button></td>
-              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color: #3D3C92; height: 100px; width: 450px;"><a href="document_2(8).html" >บุคคลได้รับการยกเว้นขอทำบัตร</a></button></td>
+              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 100px; background-color: #3D3C92; height: 100px; width: 450px;"><router-link to="/ผู้มีอายุเกิน 70 ปี ขอมีบัตร">ผู้มีอายุเกิน 70 ปี ขอมีบัตร</router-link></button></td>
+              <td><button class="w3-button w3-round-xxlarge" style="margin-right: 80px; background-color: #3D3C92; height: 100px; width: 450px;"><router-link to="/บุคคลได้รับการยกเว้นขอทำบัตร">บุคคลได้รับการยกเว้นขอทำบัตร</router-link></button></td>
             </tr>
           </table>
       </div>

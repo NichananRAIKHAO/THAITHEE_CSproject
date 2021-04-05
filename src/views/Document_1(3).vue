@@ -1,131 +1,100 @@
 <template>
- <div style="width: 1520px; height: 3000px;">
+ <div style="width: 1520px; height: 2700px;">
   <div>
-      <h1 style="font-family: 'Kanit'; font-size: 50px; margin-top: 60px; text-align: center;"><b>การจดทะเบียนสมรส</b></h1>
-      <p style="font-family: 'Kanit'; font-size: 20px; margin-top: 20px; text-align: center;"> เอกสารทางกฎหมายที่ยืนยันความสัมพันธ์ของคู่แต่งงาน ใช้เป็นหลักฐานในการยืนยันสิทธิ์ต่างๆ<br>ที่จะเกิดขึ้นระหว่างสามี-ภรรยา ให้สามารถได้สิทธิ์อย่างถูกกฎหมายและเป็นไปตามที่ควรได้รับ</p>
-      <div class="container" style="margin-top: 40px; width: 1500px; margin-left: 130px;">
+      <h1 style="font-family: 'Kanit'; font-size: 50px; margin-top: 60px; text-align: center;"><b>ต่ออายุใบขับขี่รถยนต์ส่วนบุคคล</b></h1>
+      <p style="font-family: 'Kanit'; font-size: 20px; margin-top: 20px; text-align: center;">สำหรับผู้ที่ต้องการต่ออายุใบขับขี่รถยนต์ส่วนบุคคล (5 ปี) ให้มีอายุต่อไปอีก 5 ปี</p>
+      <div class="container" style="margin-top: 40px; width: 1500px; margin-left: 200px;">
         <a><img src="../assets/1.png" alt="Cinque Terre" width="120" height="120"><span>เตรียมเอกสาร</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
         <a><img src="../assets/2.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>ยื่นเอกสารที่สำนักงานเขต</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
         <a><img src="../assets/3.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>ตรวจสอบเอกสาร</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
-        <a><img src="../assets/7.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>พิจารณาคุณสมบัติ</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
-        <a><img src="../assets/8.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>จดทะเบียนสมรส</span></a>
-        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="70" height="70" style="margin-top:50px;">
-        <a><img src="../assets/6.png" alt="Cinque Terre" width="120" height="120"><span>เสร็จสิ้น</span></a>      
-        </div>
-    
-
-      <div>
-        <table width='1150px' style="margin-left: 186px; margin-top: 50px; font-size: 25px;">
-          <tr>
-            <td rowspan="10"></td>
-            <td width='300px'><b>คุณสมบัติ</b></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>อายุ 20 ปีบริบูรณ์ขึ้นไป สามารถดำเนินการได้ด้วยตนเอง</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>อายุมากกว่า 17 ปีบริบูรณ์ แต่ไม่ถึง 20 ปีบริบูรณ์ ต้องนำบิดา มารดา</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>อายุไม่ถึง 17 ปีบริบูรณ์ ต้องได้รับอนุญาตจากศาล</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นบุคคลวิกลจริต หรือไร้ความสามารถ</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นพี่น้องร่วมบิดา มารดา หรือร่วมแต่บิดาหรือมารดา</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นคู่สมรสของบุคคลอื่น</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นผู้รับบุตรบุญธรรมกับบุตรบุญธรรม</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>หญิงหม้ายจะสมรสใหม่ เมื่อการสมรสครั้งก่อนได้สิ้นสุดไปแล้ว ไม่น้อยกว่า 310 วัน<span style="margin-left: 33px;" >เว้นแต่ถ้ามีเงื่อนไขดังต่อไปนี้</span></td>
-          </tr>
-          <tr height="20px"></tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 25px; margin-left: 80px; margin-right: 10px;" > - </span>คลอดบุตรแล้วในระหว่างนั้น<br>
-                <span style="font-size: 25px; margin-left: 80px; margin-right: 10px;" > - </span>คสมรสกับคู่สมรสเดิม<br>
-                <span style="font-size: 25px; margin-left: 80px; margin-right: 10px;" > - </span>มีใบรับรองแพทย์ว่าไม่ได้ตั้งครรภ์<br>
-                <span style="font-size: 25px; margin-left: 80px; margin-right: 10px;" > - </span>ศาลมีคำสั่งให้สมรสได้</td>
-          </tr>
-        </table>
-
-      <table width='1100px' style="margin-left: 186px; margin-top: 20px; font-size: 25px;">
-        <tr>
-          <td rowspan="4"></td>
-          <td width='300px'><b>เอกสารที่ต้องเตรียม</b></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>บัตรประจำตัวประชาชน</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ทะเบียนบ้านตัวจริงและสำเนา</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>พยานบุคคล 2 คน พร้อมบัตรประจำตัวประชาชน</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบคำร้องขอจดทะเบียนและบันทึกทะเบียนครอบครัว (คร. 1)</td>
-        </tr>
-      </table>
-
-      <table width='1150px' style="margin-left: 186px; margin-top: 20px; font-size: 25px;">
-        <tr>
-          <td rowspan="4"></td>
-          <td width='300px'><b>เอกสารเพิ่มเติม</b></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>หนังสือเดินทาง และหนังสือรับรองจากสถานทูตหรือกงสุล (กรณีชาวต่างชาติ)</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบหย่า (กรณีเคยหย่า)</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบมรณบัตร (กรณีคู่สมรสคนก่อนเสียชีวิต)</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบสูจิบัตรและทะเบียนบ้านของบุตร (กรณีมีลูกก่อนจดทะเบียนสมรส)</td>
-          </tr>
-      </table>
-    </div>
-
-      <table width='1150px' style="margin-left: 186px; margin-top: 50px; font-size: 25px;">
-        <tr>
-          <td rowspan="2"></td>
-          <td width='300px'><b>เอกสารที่ได้รับ</b></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>บัตรประจำตัวประชาชนผู้แจ้ง</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบสำคัญการสมรส (คร. 3)</td>
-        </tr>
-      </table>
-
-      <div class="w3-bar" style="margin-left:450px; margin-top:50px;">
-        <table>
-          <tr>
-            <td width="80px"><img src="../assets/document.png" alt="Cinque Terre" width="60" height="60"></td>
-            <td><button class="w3-button w3-round-xlarge" style="font-size: 20px; width:500px; height:50px; margin-right: 100px; color: white; background-color: #3D3C92;"><a href="document_6(1).html">ใบคำร้องขอจดทะเบียนและบันทึกทะเบียนครอบครัว (คร. 1)</a></button></td>
-          </tr>
-        </table>
-        
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
+        <a><img src="../assets/12.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>ทดสอบสมรรถภาพร่างกาย</span></a>
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
+        <a><img src="../assets/13.png" alt="Cinque Terre" width="120" height="120" style="margin-right: 5px;"><span>อบรมการขับขี่ 1 ชั่วโมง</span></a>
+        <img src="../assets/right-arrow.png" alt="Cinque Terre" width="40" height="40" style="margin-top:55px;">
+        <a><img src="../assets/15.png" alt="Cinque Terre" width="120" height="120"><span>อกใบขับขี่รถยนต์ส่วนบุคคล</span></a>     
       </div>
-
+      <div>
+        <table width='1200px' style="margin-left: 186px; margin-top: 50px; font-size: 25px;">
+          <tr>
+            <td rowspan="2"></td>
+            <td width='300px'><b>หมดอายุ</b></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>เกิน 1 ปี แต่ไม่เกิน 3 ปี เพิ่มขั้นตอนอบรมการขับขี่ 2 ชั่วโมงและทดสอบข้อเขียน</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>เกิน 3 ปี เพิ่มขั้นตอนอบรมการขับขี่ 2 ชั่วโมง ทดสอบข้อเขียนและทดสอบขับรถ</td>
+          </tr>
+        </table>
+        <table width='1220px' style="margin-left: 186px; margin-top: 50px; font-size: 25px;">
+          <tr>
+            <td rowspan="25"></td>
+            <td width='300px'><b>คุณสมบัติ</b></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ได้รับใบขับขี่รถยนต์ส่วนบุคคล</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>อายุไม่ตำ่กว่า 18 ปี</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>มีความรู้ความสามารถในการขับรถ</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>มีความรู้ในข้อบังคับการเดินรถตามพระราชบัญญัติรถยนต์ และตามกฎหมายว่าด้วย<br><span style="margin-left: 33px;"></span>การจราจรทางบก</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นผู้มีร่างกายพิการจนเป็นที่เห็นได้ว่าไม่สามารถขับรถได้</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่มีโรคประจำตัวที่ผู้ประกอบวิชาชีพเวชกรรมเห็นว่าอาจเป็นอันตรายขณะขับรถ</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นบุคคลวิกลจริตหรือจิตฟั่นเฟือน</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่มีใบขับขี่รถชนิดเดียวกันอยู่แล้ว</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นผู้อยู่ระหว่างถูกยึดหรือเพิกถอนใบขับขี่</td>
+          </tr>
+        </table>
+        <table width='1100px' style="margin-left: 186px; margin-top: 20px; font-size: 25px;">
+          <tr>
+            <td rowspan="3"></td>
+            <td width='300px'><b>เอกสารที่ต้องเตรียม</b></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>บัตรประจำตัวประชาชน</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบขับขี่รถยนต์ส่วนบุคคล</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบรับรองแพทย์ไม่เกิน 1 เดือน</td>
+          </tr>
+        </table>
+        <table width='1100px' style="margin-left: 186px; margin-top: 20px; font-size: 25px;">
+          <tr>
+            <td width='300px'><b>เอกสารที่ได้รับ</b></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบขับขี่รถยนต์ส่วนบุคคล</td>
+          </tr>
+        </table>
+        <table width='1100px' style="margin-left: 186px; margin-top: 20px; font-size: 25px;">
+          <tr>
+            <td width='300px'><b>ค่าธรรมเนียม</b></td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>505 บาท</td>
+          </tr>
+        </table>
+      </div>
   </div>
 
   <div class="map" style="margin-left: 260px; margin-top: 50px; font-size: 25px;"><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.172258935543!2d100.55776511478011!3d13.828692690297695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29cf6e5d732cd%3A0x25f9b104c4048608!2z4Liq4Liz4LiZ4Lix4LiB4LiH4Liy4LiZ4LmA4LiC4LiV4LiI4LiV4Li44LiI4Lix4LiB4Lij!5e0!3m2!1sth!2sth!4v1616405842695!5m2!1sth!2sth" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p></div>
@@ -169,7 +138,7 @@
       </tr>
     </table>
   </div>
-</div>
+ </div>
 </template>
 
 <script>

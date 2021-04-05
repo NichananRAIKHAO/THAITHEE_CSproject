@@ -9,7 +9,18 @@ import document_1_2 from '../views/Document_1(2).vue'
 import document_1_3 from '../views/Document_1(3).vue'
 import document_1_4 from '../views/Document_1(4).vue'
 import document_2 from '../views/Document_2.vue'
+import document_2_1 from '../views/Document_2(1).vue'
+import document_2_2 from '../views/Document_2(2).vue'
+import document_2_3 from '../views/Document_2(3).vue'
+import document_2_4 from '../views/Document_2(4).vue'
+import document_2_5 from '../views/Document_2(5).vue'
+import document_2_6 from '../views/Document_2(6).vue'
+import document_2_7 from '../views/Document_2(7).vue'
+import document_2_8 from '../views/Document_2(8).vue'
 import document_3 from '../views/Document_3.vue'
+import document_3_1 from '../views/Document_3(1).vue'
+import document_3_2 from '../views/Document_3(2).vue'
+import document_3_3 from '../views/Document_3(3).vue'
 import document_4 from '../views/Document_4.vue'
 import document_5 from '../views/Document_5.vue'
 import document_6 from '../views/Document_6.vue'
@@ -63,9 +74,64 @@ const routes = [
     component: document_2
   },
   {
+    path: '/ขอมีบัตรครั้งแรก',
+    name: 'Document_2_1',
+    component: document_2_1
+  },
+  {
+    path: '/บัตรเดิมหมดอายุ',
+    name: 'Document2_2',
+    component: document_2_2
+  },
+  {
+    path: '/บัตรหายหรือถูกทำลาย',
+    name: 'Document2_3',
+    component: document_2_3
+  },
+  {
+    path: '/บัตรเดิมชำรุดในสาระสำคัญ',
+    name: 'Document_2_4',
+    component: document_2_4
+  },
+  {
+    path: '/เปลี่ยนชื่อตัวหรือชื่อสกุล',
+    name: 'Document_2_5',
+    component: document_2_5
+  },
+  {
+    path: '/ผู้ถือบัตรย้ายที่อยู่',
+    name: 'Document2_6',
+    component: document_2_6
+  },
+  {
+    path: '/ผู้มีอายุเกิน 70 ปี ขอมีบัตร',
+    name: 'Document2_7',
+    component: document_2_7
+  },
+  {
+    path: '/บุคคลได้รับการยกเว้นขอทำบัตร',
+    name: 'Document2_8',
+    component: document_2_8
+  },
+  {
     path: '/หนังสือเดินทาง',
     name: 'Document3',
     component: document_3
+  },
+  {
+    path: '/ผู้ยื่นขออายุ20ปีขึ้นไป',
+    name: 'Document3_1',
+    component: document_3_1
+  },
+  {
+    path: '/ผู้ยื่นขออายุ15-20ปี',
+    name: 'Document3_2',
+    component: document_3_2
+  },
+  {
+    path: '/ผู้ยื่นขออายุต่ำกว่า15ปี',
+    name: 'Document3_3',
+    component: document_3_3
   },
   {
     path: '/แจ้งเกิด',
@@ -127,6 +193,7 @@ const routes = [
     name: 'login',
     component: login
   }
+
 ]
 
 const router = createRouter({

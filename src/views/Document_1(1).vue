@@ -1,5 +1,5 @@
 <template>
- <div style="width: 1520px; height: 3000px;">
+ <div style="width: 1520px; height: 2500px;">
   <div>
       <h1 style="font-family: 'Kanit'; font-size: 50px; margin-top: 60px; text-align: center;"><b>ใบขับขี่รถยนต์ส่วนบุคคลชั่วคราว</b></h1>
       <p style="font-family: 'Kanit'; font-size: 20px; margin-top: 20px; text-align: center;"> สำหรับผู้ที่ทำใบขับขี่ครั้งแรก มีอายุการใช้งาน 2 ปี </p>
@@ -19,114 +19,77 @@
         <a><img src="../assets/15.png" alt="Cinque Terre" width="120" height="120"><span>ออกใบขับขี่รถยนต์ส่วนบุคคลชั่วคราว</span></a>   
       </div>
     
-
-      <div>
+     <div>
         <table width='1150px' style="margin-left: 186px; margin-top: 50px; font-size: 25px;">
           <tr>
-            <td rowspan="10"></td>
+            <td rowspan="8"></td>
             <td width='300px'><b>คุณสมบัติ</b></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>อายุ 20 ปีบริบูรณ์ขึ้นไป สามารถดำเนินการได้ด้วยตนเอง</td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>อายุไม่ต่ำกว่า 18 ปี </td>
           </tr>
           <tr>
             <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>อายุมากกว่า 17 ปีบริบูรณ์ แต่ไม่ถึง 20 ปีบริบูรณ์ ต้องนำบิดา มารดา</td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>มีความรู้ความสามารถในการขับรถ</td>
           </tr>
           <tr>
             <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>อายุไม่ถึง 17 ปีบริบูรณ์ ต้องได้รับอนุญาตจากศาล</td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>มีความรู้ในข้อบังคับการเดินรถตามพระราชบัญญัติรถยนต์และตามกฎหมายว่า<span style="margin-left: 33px;"></span>ด้วยการจราจรทางบก</td>
           </tr>
           <tr>
             <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นบุคคลวิกลจริต หรือไร้ความสามารถ</td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นผู้มีร่างกายพิการจนเป็นที่เห็นได้ว่าไม่สามารถขับรถได้</td>
           </tr>
           <tr>
             <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นพี่น้องร่วมบิดา มารดา หรือร่วมแต่บิดาหรือมารดา</td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่มีโรคประจำตัวที่ผู้ประกอบวิชาชีพเวชกรรมเห็นว่าอาจเป็นอันตรายขณะขับรถ</td>
           </tr>
           <tr>
             <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นคู่สมรสของบุคคลอื่น</td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นบุคคลวิกลจริตหรือจิตฟั่นเฟือน</td>
           </tr>
           <tr>
             <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นผู้รับบุตรบุญธรรมกับบุตรบุญธรรม</td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่มีใบขับขี่รถชนิดเดียวกันอยู่แล้ว</td>
           </tr>
           <tr>
             <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>หญิงหม้ายจะสมรสใหม่ เมื่อการสมรสครั้งก่อนได้สิ้นสุดไปแล้ว ไม่น้อยกว่า 310 วัน<span style="margin-left: 33px;" >เว้นแต่ถ้ามีเงื่อนไขดังต่อไปนี้</span></td>
-          </tr>
-          <tr height="20px"></tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 25px; margin-left: 80px; margin-right: 10px;" > - </span>คลอดบุตรแล้วในระหว่างนั้น<br>
-                <span style="font-size: 25px; margin-left: 80px; margin-right: 10px;" > - </span>คสมรสกับคู่สมรสเดิม<br>
-                <span style="font-size: 25px; margin-left: 80px; margin-right: 10px;" > - </span>มีใบรับรองแพทย์ว่าไม่ได้ตั้งครรภ์<br>
-                <span style="font-size: 25px; margin-left: 80px; margin-right: 10px;" > - </span>ศาลมีคำสั่งให้สมรสได้</td>
+            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ไม่เป็นผู้อยู่ระหว่างถูกยึดหรือเพิกถอนใบขับขี่</td>
           </tr>
         </table>
 
       <table width='1100px' style="margin-left: 186px; margin-top: 20px; font-size: 25px;">
         <tr>
-          <td rowspan="4"></td>
+          <td rowspan="2"></td>
           <td width='300px'><b>เอกสารที่ต้องเตรียม</b></td>
           <td><span style="font-size: 40px; margin-right: 10px;" > • </span>บัตรประจำตัวประชาชน</td>
         </tr>
         <tr>
           <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ทะเบียนบ้านตัวจริงและสำเนา</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>พยานบุคคล 2 คน พร้อมบัตรประจำตัวประชาชน</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบคำร้องขอจดทะเบียนและบันทึกทะเบียนครอบครัว (คร. 1)</td>
+          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบรับรองแพทย์ไม่เกิน 1 เดือน</td>
         </tr>
       </table>
 
       <table width='1150px' style="margin-left: 186px; margin-top: 20px; font-size: 25px;">
         <tr>
-          <td rowspan="4"></td>
           <td width='300px'><b>เอกสารเพิ่มเติม</b></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>หนังสือเดินทาง และหนังสือรับรองจากสถานทูตหรือกงสุล (กรณีชาวต่างชาติ)</td>
+          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>หนังสือเดินทาง พร้อมสำเนา (กรณีชาวต่างชาติ)</td>
         </tr>
-        <tr>
-          <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบหย่า (กรณีเคยหย่า)</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบมรณบัตร (กรณีคู่สมรสคนก่อนเสียชีวิต)</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบสูจิบัตรและทะเบียนบ้านของบุตร (กรณีมีลูกก่อนจดทะเบียนสมรส)</td>
-          </tr>
       </table>
-    </div>
 
-      <table width='1150px' style="margin-left: 186px; margin-top: 50px; font-size: 25px;">
+      <table width='1150px' style="margin-left: 186px; margin-top: 20px; font-size: 25px;">
         <tr>
-          <td rowspan="2"></td>
           <td width='300px'><b>เอกสารที่ได้รับ</b></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>บัตรประจำตัวประชาชนผู้แจ้ง</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบสำคัญการสมรส (คร. 3)</td>
+          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>ใบขับขี่รถยนต์ส่วนบุคคลชั่วคราว</td>
         </tr>
       </table>
 
-      <div class="w3-bar" style="margin-left:450px; margin-top:50px;">
-        <table>
-          <tr>
-            <td width="80px"><img src="../assets/document.png" alt="Cinque Terre" width="60" height="60"></td>
-            <td><button class="w3-button w3-round-xlarge" style="font-size: 20px; width:500px; height:50px; margin-right: 100px; color: white; background-color: #3D3C92;"><a href="document_6(1).html">ใบคำร้องขอจดทะเบียนและบันทึกทะเบียนครอบครัว (คร. 1)</a></button></td>
-          </tr>
-        </table>
-        
-      </div>
+      <table width='1150px' style="margin-left: 186px; margin-top: 20px; font-size: 25px;">
+        <tr>
+          <td width='300px'><b>ค่าธรรมเนียม</b></td>
+          <td><span style="font-size: 40px; margin-right: 10px;" > • </span>200 บาท</td>
+        </tr>
+      </table>
+
+    </div>
 
   </div>
 
